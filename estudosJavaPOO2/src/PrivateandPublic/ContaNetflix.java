@@ -1,3 +1,4 @@
+package PrivateandPublic;
 public class ContaNetflix {
     private String idiomaPreferencial;
     private String resolucaoTela;
