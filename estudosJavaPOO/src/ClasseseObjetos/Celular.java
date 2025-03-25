@@ -1,3 +1,4 @@
+package ClasseseObjetos;
 public class Celular {
     // Características -> atributos
     String nome; // atributo chamado nome do tipo string.
