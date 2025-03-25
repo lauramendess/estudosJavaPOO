@@ -1,10 +1,10 @@
-
-
-import classes.ContaBancaria;
-import classes.Pessoa;
+import br.com.classes.ContaBancaria;
+import br.com.classes.Pessoa;
 
 public class GetterseSettings {
     public static void main(String[] args) {
+        // COMPLEMENTO PACKAGE CLASSES -> Pessoa.java e ContaBancaria.java
+        
         Pessoa pessoa = new Pessoa();
         // modificar -> setNomVariavel
         // pegar -> getNomeVariavel

@@ -1,4 +1,4 @@
-package classes;
+package br.com.classes;
 
 public class Pessoa {
     private String nome = "Laura";
