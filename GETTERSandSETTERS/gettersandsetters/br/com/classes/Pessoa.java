@@ -1,9 +1,22 @@
 package br.com.classes;
 
 public class Pessoa {
-    private String nome = "Laura";
+    private String nome;
     private int idade;
-    private double altura;
+
+    public Pessoa(String nome){
+        this.nome = nome;
+        idade = 20;
+        imprimirDados();
+    }
+
+    public void imprimirDados(){
+        System.out.format(
+            "Nome: %s, idade = %d \n",
+            nome, 
+            idade
+        );
+    }
 
     public String getNome(){
        return nome;
@@ -19,13 +32,5 @@ public class Pessoa {
 
     public void setIdade(int idade){
         this.idade = idade;
-    }
-
-    public double getAltura(){
-        return altura;
-    }
-
-    public void setAltura(double altura){
-        this.altura = altura;
     }
 }
